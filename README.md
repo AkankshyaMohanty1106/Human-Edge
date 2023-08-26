@@ -67,8 +67,40 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Human-Edge" 
-"# Human-Edge" 
-"# Human-Edge" 
-"# Human-Edge" 
+External utility libraries used –
+
+moment.js for automatically updating the time difference of comment of user from the real time.
+
+How to integrate and use the widget in different websites?
+
+steps
+
+Ø  First you have to copy all the files in src folder and icons from the public folder from the cloned repository and paste it to the respective src folder and public folder of the application you want to use the comment widget.
+
+ 
+
+Ø  Then Install the node package module of -moment.js in the Application where you want to use comment widget.
+
+ 
+
+Ø  Then you can import the comments.js in the required js folder of your application and use the comment widget.
+
+             
+
+Key design decisions 
+
+·       comments.js: Responsible for rendering a list of individual comments and reply.     
+
+·       comment.js: Decide whether users can edit or delete, reply their comments and implement   corresponding functionality. Also, functionality of sorting of comments based on likes and time difference calculation of user’s comment is implemented in this js file.       
+
+Challenges faced -
+
+·       Displaying the time difference of users comment from the real time.
+
+·       Retaining the data after reloading of page.
+
+User experience and accessibility -
+
+·       Users can leave, edit, and interact with comments on the website.
+
+·       Comments are sorted (descending order) based on no of likes, so user can see the most liked comments easily .
