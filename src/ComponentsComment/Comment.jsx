@@ -77,7 +77,7 @@ const Comment = ({
               <>
                 <AddComment inputValue={input} setInput={setInput} />
                 <div className="reply comment" onClick={onAddComment}>
-                COMMENT
+                Comment
               </div>
               </>
             ) : (
