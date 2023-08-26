@@ -1,0 +1,18 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-Container {
+  
+  background: linear-gradient(180deg, #0a6194 50%, #4da1d1);
+  min-height: 100vh;
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
