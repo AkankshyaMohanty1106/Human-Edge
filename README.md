@@ -91,7 +91,9 @@ Key design decisions
 
 ·       comments.js: Responsible for rendering a list of individual comments and reply.     
 
-·       comment.js: Decide whether users can edit or delete, reply their comments and implement   corresponding functionality. Also, functionality of sorting of comments based on likes and time difference calculation of user’s comment is implemented in this js file.       
+·       comment.js: Decide whether users can edit or delete, reply their comments and implement   corresponding functionality. Also, functionality of sorting of comments   
+        based on likes and time difference calculation of user’s comment is implemented in this js file.  
+.       used random function for different users in different time . Coz we get the user data from service side . But we don’t have any api to call . 
 
 Challenges faced -
 
